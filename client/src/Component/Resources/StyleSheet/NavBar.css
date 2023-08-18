@@ -1,0 +1,23 @@
+.navbar-brand{
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 300;
+    word-wrap: break-word;
+}
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+    font-family: Font Awesome 5 Brands;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.navbar{
+    background-color: rgb(27, 27, 27)!important;
+}
+
+.nav-link:hover{
+    color: #0D6EFD!important;
+}

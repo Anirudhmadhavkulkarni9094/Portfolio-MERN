@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap');
+.Title_blogs{
+    display: flex;
+    justify-content: space-between;
+    border: 2px white solid ;
+    padding: 1rem;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 8px white;
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.1rem;
+    margin: 2rem 0rem!important;
+
+}
+
+.Title_blogs:hover{
+    box-shadow: 0px 0px 10px white;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    *{
+        font-size: 10px;
+    }
+}

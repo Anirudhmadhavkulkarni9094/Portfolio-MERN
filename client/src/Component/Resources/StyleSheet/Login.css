@@ -1,0 +1,28 @@
+form,
+.form_comp{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    margin: 1rem auto;
+}
+
+.form_comp input{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: none;
+}
+
+.form_comp input::before{
+    background-color: none;
+}
+
+.form_comp textarea{
+    height: 15rem;
+  
+}
+
+
+.Add_Blog_btn{
+    width: 10rem;
+    margin: auto;
+}

@@ -1,0 +1,36 @@
+.Feedback-card{
+    border: 2px solid white;
+    padding: 1rem;
+    height: 10rem;  
+    box-shadow: 5px 5px 10px #dfdfdf;;
+    border-radius: 1rem;
+    
+}
+
+.Feedback-card h5 , .Feedback-card p{
+    font-size: 1rem!important;
+}
+
+.Feedback-card:hover{
+    transform: translate(5px, 5px);
+    box-shadow: none;
+    transition: 0.3s ease-in-out;
+    border: 2px solid #e1e1e1;;
+
+}
+
+.feedbacks{
+    border-right: 2px solid white;
+    height: 38rem;
+    overflow: scroll;
+    background-color: #ffffff;
+}
+
+/* Hide scrollbar */
+.feedbacks::-webkit-scrollbar {
+    width: 0.5em; /* Adjust this width as needed */
+}
+
+.feedbacks::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Hide the thumb */
+}
