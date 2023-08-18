@@ -28,47 +28,47 @@ function Skills() {
 
       <p>Languages</p>
       <div className='Skill-list'>
-        <img src={C}></img>
-        <img src={Cpp}></img>
-        <img src={java}></img>
-        <img src={python}></img>
+        <img alt='' src={C}></img>
+        <img alt='' src={Cpp}></img>
+        <img alt='' src={java}></img>
+        <img alt='' src={python}></img>
       </div>
       </li>
       <li>
 
       <p>Frame-works</p>
       <div className='Skill-list'>
-        <img src={html}></img>
-        <img src={css}></img>
-        <img src={js}></img>
-        <img src={react}></img>
-        <img src={node}></img>
-        <img src={Express}></img>
+        <img alt='' src={html}></img>
+        <img alt='' src={css}></img>
+        <img alt='' src={js}></img>
+        <img alt='' src={react}></img>
+        <img alt='' src={node}></img>
+        <img alt='' src={Express}></img>
       </div>
       </li>
       <li>
 
       <p>Databases</p>
       <div className='Skill-list'>
-        <img src={mysql}></img>
-        <img src={mongoDB}></img>
+        <img alt='' src={mysql}></img>
+        <img alt='' src={mongoDB}></img>
       </div>
       </li>
       <li>
 
       <p>Tools</p>
       <div className='Skill-list'>
-        <img src={git}></img>
-        <img src={github}></img>
-        <img src={docker}></img>
-        <img src={postman}></img>
+        <img alt='' src={git}></img>
+        <img alt='' src={github}></img>
+        <img alt='' src={docker}></img>
+        <img alt='' src={postman}></img>
       </div>
       </li>
       <li>
       <p>Operating systems</p>
       <div className='Skill-list'> 
-        <img src={window}></img>
-        <img src={linux}></img>
+        <img alt='' src={window}></img>
+        <img alt='' src={linux}></img>
       </div>
       </li>
       </ul>

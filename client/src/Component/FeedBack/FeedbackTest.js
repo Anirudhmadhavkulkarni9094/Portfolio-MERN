@@ -10,7 +10,7 @@ function FeedbackTest() {
     }).catch(err=>{
       console.log(err);
     })
-  },Feedbacks)
+  },[Feedbacks])
   return (
     <div className='feedbacks'>
     {Feedbacks.map(Feedback=>{
