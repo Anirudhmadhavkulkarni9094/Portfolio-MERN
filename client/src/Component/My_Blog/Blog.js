@@ -5,7 +5,7 @@ import axios from 'axios';
 function Blog() {
     const [Blogs , setBlogs] = useState([]);
     useEffect(()=>{
-        axios.get('http://localhost:3001/get-blogs').then(res=>{
+        axios.get('https://portfolio-17hx.onrender.com/get-blogs').then(res=>{
             setBlogs(res.data.data);
         }).catch(err=>{
             console.log(err);

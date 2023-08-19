@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../Resources/StyleSheet/Home.css'
 function Home() {
   const [text, setText] = useState('');
-  const fullText = "Heello There! Welcome to My Portfolio website! My name is Anirudh kulkarni from Bangalore Institute of Technology";
+  const fullText = "Heello There! Welcome to My Portfolio website! My name is Anirudh kulkarni and I'm a B.E Graduate from Bangalore Institute of Technology";
 
   useEffect(() => {
     let currentIndex = 0;

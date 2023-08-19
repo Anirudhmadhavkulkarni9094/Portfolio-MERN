@@ -19,10 +19,8 @@ function AddBlog() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:3001/add-blogs', formData);
+      await axios.post('https://portfolio-17hx.onrender.com/add-blogs', formData);
       console.log('Data added successfully');
-      // Optionally, you can add some feedback to the user after successful submission.
-      // For example, you can display a success message or clear the form fields.
     } catch (err) {
       console.error('Data cannot be added:', err.message);
       // Optionally, you can add some feedback to the user after failed submission.

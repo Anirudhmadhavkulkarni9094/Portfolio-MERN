@@ -7,7 +7,7 @@ function Project() {
       const [Projects , setProjects] = useState([]);   
       
       useEffect(()=>{
-        axios.get('http://localhost:3001/get-projects').then(res=>{
+        axios.get('https://portfolio-17hx.onrender.com/get-projects').then(res=>{
           setProjects(res.data.data);
         }).catch(err=>{
           console.log(err);
