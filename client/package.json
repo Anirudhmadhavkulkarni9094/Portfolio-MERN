@@ -43,7 +43,6 @@
     "axios": "^1.4.0",
     "bootstrap-icons": "^1.10.5",
     "gh-pages": "^6.0.0",
-    "react-router-dom": "^6.15.0",
-    "react-routing": "^0.0.7"
+    "react-router-dom": "^6.15.0"
   }
 }
