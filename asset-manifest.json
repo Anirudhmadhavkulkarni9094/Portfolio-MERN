@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/github.io/Portfolio-MERN.git/static/css/main.20ddb95b.css",
+    "main.js": "/github.io/Portfolio-MERN.git/static/js/main.594a6bb1.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/github.io/Portfolio-MERN.git/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/Earth.gif": "/github.io/Portfolio-MERN.git/static/media/Earth.31cadf36cc5f8a18b81b.gif",
+    "static/media/Profile.jpg": "/github.io/Portfolio-MERN.git/static/media/Profile.c8138ad3f0e9d1f267a0.jpg",
+    "static/media/github.png": "/github.io/Portfolio-MERN.git/static/media/github.3cf58911ef18496c05ea.png",
+    "static/media/postman.png": "/github.io/Portfolio-MERN.git/static/media/postman.e9a89cc964c4d730f46d.png",
+    "static/media/react.png": "/github.io/Portfolio-MERN.git/static/media/react.8fd0d082ad79f85e097e.png",
+    "static/media/linux.png": "/github.io/Portfolio-MERN.git/static/media/linux.32708e5bb2935ad0b972.png",
+    "static/media/python.png": "/github.io/Portfolio-MERN.git/static/media/python.7231a7941f2fc23581d8.png",
+    "static/media/c.png": "/github.io/Portfolio-MERN.git/static/media/c.f41dd2904b9a85000ec9.png",
+    "static/media/c++.png": "/github.io/Portfolio-MERN.git/static/media/c++.f8d3c04ee64611e8482d.png",
+    "static/media/Node.png": "/github.io/Portfolio-MERN.git/static/media/Node.5ede8e5d60d22e260d33.png",
+    "static/media/docker.png": "/github.io/Portfolio-MERN.git/static/media/docker.294017e7d37a8723b666.png",
+    "static/media/java.png": "/github.io/Portfolio-MERN.git/static/media/java.0c75bc23d1dba0551612.png",
+    "static/media/git.png": "/github.io/Portfolio-MERN.git/static/media/git.7b49afab6d6d9a20dcb7.png",
+    "static/media/HTML.png": "/github.io/Portfolio-MERN.git/static/media/HTML.4fd55da90719ab616f7b.png",
+    "static/media/css.png": "/github.io/Portfolio-MERN.git/static/media/css.5b301dfba3057e3068ea.png",
+    "static/media/js.png": "/github.io/Portfolio-MERN.git/static/media/js.0ad3a1e4ac84e9d995ff.png",
+    "static/media/mySQL.png": "/github.io/Portfolio-MERN.git/static/media/mySQL.8ed80e86ba734dd2ce4b.png",
+    "static/media/MongoDB (1).png": "/github.io/Portfolio-MERN.git/static/media/MongoDB (1).bb2af19556a938c249c3.png",
+    "static/media/Express.png": "/github.io/Portfolio-MERN.git/static/media/Express.6a33180b9d0ff8f6f93a.png",
+    "index.html": "/github.io/Portfolio-MERN.git/index.html",
+    "main.20ddb95b.css.map": "/github.io/Portfolio-MERN.git/static/css/main.20ddb95b.css.map",
+    "main.594a6bb1.js.map": "/github.io/Portfolio-MERN.git/static/js/main.594a6bb1.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/github.io/Portfolio-MERN.git/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20ddb95b.css",
+    "static/js/main.594a6bb1.js"
+  ]
+}
