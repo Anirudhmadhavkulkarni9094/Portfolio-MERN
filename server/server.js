@@ -104,6 +104,34 @@ app.post('/add-feedback' , async (req, res) => {
     }
 });
 
+const https = require('https');
+
+const handler = async (event, context) => {
+ const url = 'https://portfolio-17hx.onrender.com';
+
+ return new Promise((resolve, reject) => {
+   const req = https.get(url, (res) => {
+     if (res.statusCode === 200) {
+       resolve({
+         statusCode: 200,
+         body: 'Server pinged successfully',
+       });
+     } else {
+       reject(
+         new Error(`Server ping failed with status code: ${res.statusCode}`)
+       );
+     }
+   });
+
+   req.on('error', (error) => {
+     reject(error);
+   });
+
+   req.end();
+ });
+};
+
+handler()
 
 
 app.listen(3001,()=>{
