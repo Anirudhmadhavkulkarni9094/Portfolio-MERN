@@ -10,7 +10,8 @@ const Project = require('./model/ProjectSchema');
 const Feedback = require('./model/Feedback')
 
 app.use(cors())
-app.use(body_parser())
+app.use(body_parser.json());
+
 
 
 mongoose.connect('mongodb+srv://anirudhkulkarni9094:yj7Hp6RBnEEf0aQV@cluster0.13ujdku.mongodb.net/?retryWrites=true&w=majority').then(res=>{
