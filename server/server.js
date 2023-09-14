@@ -99,6 +99,10 @@ try {
 }
 });
 
+app.get('/health' ,(req,res)=>{
+    res.send("hey site is up and working")
+})
+
 // Add new feedback
 app.post('/add-feedback', async (req, res) => {
 try {
@@ -120,6 +124,8 @@ const port = process.env.PORT || 3001;
 app.listen(port, () => {
 console.log(`Server is running on port ${port}`);
 });
+
+
 
 // Graceful shutdown
 process.on('SIGINT', () => {
