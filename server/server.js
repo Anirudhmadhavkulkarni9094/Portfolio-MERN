@@ -67,20 +67,21 @@ try {
 
 // Get all projects
 app.get('/get-projects', async (req, res) => {
-try {
-    const projectList = await Project.find();
-    res.status(200).json({
+    try {
+      const projectList = await Project.find();
+      res.status(200).json({
         message: "Data fetched successfully",
         data: projectList
-    });
-} catch (err) {
-    console.error("Failed to fetch projects:", err.message);
-    res.status(500).json({
+      });
+    } catch (err) {
+      console.error("Failed to fetch projects:", err.message);
+      res.status(500).json({
         message: "Failed to fetch projects",
         error: err.message
-    });
-}
-});
+      });
+    }
+  });
+  
 app.delete('/project/:id' , async (req, res) => {
     const blogId = req.params.id;
     try {
